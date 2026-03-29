@@ -1,9 +1,8 @@
 {
-  "name": "mewai-api",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vercel dev"
-  },
-  "dependencies": {}
+  "version": 2,
+  "functions": {
+    "api/chat.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
